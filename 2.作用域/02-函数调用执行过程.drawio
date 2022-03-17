@@ -1,0 +1,73 @@
+<mxfile host="65bd71144e">
+    <diagram id="AO8hic0ZNo2Fx4wd2Rj9" name="第 1 页">
+        <mxGraphModel dx="886" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="160" width="260" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="ECStack(调用栈)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="130" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="225" y="380" width="225" height="145" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="VO：AO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="390" width="185" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="执行代码 foo()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="455" width="185" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="200" width="222.5" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="VO：AO&lt;br&gt;scopechain: VO+parentScope" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="247.5" y="210" width="185" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="执行代码&lt;br&gt;console.log(message)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="247.5" y="280" width="185" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="550" width="220" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="VO：GO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="247.5" y="560" width="185" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="执行代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="245" y="630" width="185" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;font color=&quot;#33ff33&quot;&gt;bar函数执行上下文&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="360" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;font color=&quot;#3399ff&quot;&gt;foo函数执行上下文&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="245" y="180" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;font color=&quot;#3399ff&quot;&gt;parentScope: GO&lt;br&gt;函数体代码&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#33FF33;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="530" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="parentScope: GO&lt;br&gt;函数体代码" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#33FF33;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="530" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="bar函数对象 0xb00" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#33FF33;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="510" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;font color=&quot;#3399ff&quot;&gt;foo函数对象 0xa00&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#33FF33;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="510" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="{&amp;nbsp; &lt;br&gt;&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#3399FF;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="290" width="150" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font color=&quot;#ff3333&quot;&gt;window&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font color=&quot;#ff3333&quot;&gt;message: &quot;Hello Global&quot;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font color=&quot;#ff3333&quot;&gt;foo: 0xa00&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font color=&quot;#ff3333&quot;&gt;bar: 0xb00&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#3399FF;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="155" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;font color=&quot;#33ff33&quot;&gt;message：&quot;Hello Global&quot;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#3399FF;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="290" width="140" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;font color=&quot;#ff3333&quot;&gt;GO 对象&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3399FF;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="135" width="60" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,92 +1,236 @@
 <mxfile host="65bd71144e">
     <diagram id="SLLLjJi9UvH2CaD998XD" name="第 1 页">
-        <mxGraphModel dx="1370" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1419" dy="1198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="12" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;var name = &quot;wyq&quot;&lt;br&gt;var num1 = 20&lt;br&gt;var num2 = 30&lt;br&gt;var result = num1+num2&lt;br&gt;foo()&lt;br&gt;function foo(){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;console.log('foo')&lt;br&gt;}&lt;/font&gt;&lt;/b&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=interface;archiType=square;fontColor=#33FF33;align=left;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="12" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;var name = &quot;wyq&quot;&lt;br&gt;var num1 = 20&lt;br&gt;var num2 = 30&lt;br&gt;var result = num1+num2&lt;br&gt;foo()&lt;br&gt;function foo(num){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;let n = 10&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;console.log('foo')&lt;br&gt;}&lt;/font&gt;&lt;/b&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=interface;archiType=square;fontColor=#33FF33;align=left;strokeWidth=2;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-310" y="-40" width="150" height="190" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#000000;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="12">
+                <mxCell id="13" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#000000;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;" parent="1" target="12" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="-80" y="360" as="sourcePoint"/>
                         <mxPoint x="180" y="350" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="16" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate3.application;appType=event;archiType=rounded;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="16" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate3.application;appType=event;archiType=rounded;fontColor=#000000;strokeColor=#000000;strokeWidth=2;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-80" y="70" width="240" height="535" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="&lt;font color=&quot;#000000&quot;&gt;开始执行代码&lt;br&gt;var name = &quot;wyq&quot;&lt;br&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="18" value="&lt;font color=&quot;#000000&quot;&gt;开始执行代码&lt;br&gt;var name = &quot;wyq&quot;&lt;br&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-50" y="530" width="180" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="&lt;font color=&quot;#000000&quot;&gt;VO(variable Object):GO&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="20" value="&lt;font color=&quot;#000000&quot;&gt;VO(variable Object):GO&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-50" y="470" width="180" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="&lt;font color=&quot;#000000&quot;&gt;var globalObject = {&lt;br&gt;&amp;nbsp; &amp;nbsp; String: &quot;类&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; Date: &quot;类&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; setTimeout: &quot;函数&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; window: globalObject,&lt;br&gt;&amp;nbsp; &amp;nbsp; name: undefined,&lt;br&gt;&amp;nbsp; &amp;nbsp; num1: undefined,&lt;br&gt;&amp;nbsp; &amp;nbsp; num2: undefined,&lt;br&gt;&amp;nbsp; &amp;nbsp; result: undfined,&lt;br&gt;&amp;nbsp; &amp;nbsp; foo: oxa00&lt;br&gt;}&lt;/font&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=interface;archiType=square;fontColor=#33FF33;align=left;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="22" value="&lt;font color=&quot;#000000&quot;&gt;var globalObject = {&lt;br&gt;&amp;nbsp; &amp;nbsp; String: &quot;类&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; Date: &quot;类&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; setTimeout: &quot;函数&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; window: globalObject,&lt;br&gt;&amp;nbsp; &amp;nbsp; name: undefined,&lt;br&gt;&amp;nbsp; &amp;nbsp; num1: undefined,&lt;br&gt;&amp;nbsp; &amp;nbsp; num2: undefined,&lt;br&gt;&amp;nbsp; &amp;nbsp; result: undfined,&lt;br&gt;&amp;nbsp; &amp;nbsp; foo: oxa00&lt;br&gt;}&lt;/font&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=interface;archiType=square;fontColor=#33FF33;align=left;strokeWidth=2;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="295" y="-40" width="150" height="250" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="" style="endArrow=classic;html=1;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="20" target="22">
+                <mxCell id="23" value="" style="endArrow=classic;html=1;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF0000;rounded=0;" parent="1" source="20" target="22" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="60" y="400" as="sourcePoint"/>
                         <mxPoint x="110" y="350" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" value="&lt;font color=&quot;#ff0000&quot;&gt;GO 对象&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+                <mxCell id="24" value="&lt;font color=&quot;#ff0000&quot;&gt;GO 对象&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="170" y="357.5" width="60" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="&lt;font color=&quot;#ff3333&quot;&gt;GEC&amp;nbsp; (global exection context&lt;span&gt;)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+                <mxCell id="25" value="&lt;font color=&quot;#ff3333&quot;&gt;GEC&amp;nbsp; (global exection context&lt;span&gt;)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-50" y="450" width="180" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="&lt;font color=&quot;#00ff00&quot;&gt;ECstack 调用栈&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+                <mxCell id="29" value="&lt;font color=&quot;#00ff00&quot;&gt;ECstack 调用栈&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-80" y="45" width="100" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="[[scope]]: parent scope&lt;br&gt;函数的执行体(代码块)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate3.application;appType=event;archiType=rounded;fontColor=#000000;strokeColor=#000000;align=left;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="30" value="[[scope]]: parent scope&lt;br&gt;函数的执行体(代码块)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate3.application;appType=event;archiType=rounded;fontColor=#000000;strokeColor=#000000;align=left;strokeWidth=2;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="305" y="377.5" width="130" height="85" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="&lt;font color=&quot;#000000&quot;&gt;存储函数foo&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#00FF00;" vertex="1" parent="1">
+                <mxCell id="31" value="&lt;font color=&quot;#000000&quot;&gt;存储函数foo&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#00FF00;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="330" y="377.5" width="80" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="" style="endArrow=classic;html=1;fontColor=#33FF33;strokeColor=#00CC00;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;" edge="1" parent="1" target="30">
+                <mxCell id="32" value="" style="endArrow=classic;html=1;fontColor=#33FF33;strokeColor=#00CC00;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;rounded=0;" parent="1" target="30" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="370" y="357.5" as="sourcePoint"/>
                         <mxPoint x="485" y="480" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="34" value="" style="endArrow=classic;html=1;fontColor=#000000;strokeColor=#00CC00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="22" target="35">
+                <mxCell id="34" value="" style="endArrow=classic;html=1;fontColor=#000000;strokeColor=#00CC00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;" parent="1" source="22" target="35" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="190" y="310" as="sourcePoint"/>
                         <mxPoint x="470" y="135" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="35" value="&lt;font color=&quot;#000000&quot;&gt;var globalObject = {&lt;br&gt;&amp;nbsp; &amp;nbsp; String: &quot;类&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; Date: &quot;类&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; setTimeout: &quot;函数&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; window: globalObject,&lt;br&gt;&amp;nbsp; &amp;nbsp; name: ‘wyq’,&lt;br&gt;&amp;nbsp; &amp;nbsp; num1: 20,&lt;br&gt;&amp;nbsp; &amp;nbsp; num2: 30,&lt;br&gt;&amp;nbsp; &amp;nbsp; result: 50,&lt;br&gt;&amp;nbsp; &amp;nbsp; foo: oxa00&lt;br&gt;}&lt;/font&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=interface;archiType=square;fontColor=#33FF33;align=left;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="35" value="&lt;font color=&quot;#000000&quot;&gt;var globalObject = {&lt;br&gt;&amp;nbsp; &amp;nbsp; String: &quot;类&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; Date: &quot;类&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; setTimeout: &quot;函数&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; window: globalObject,&lt;br&gt;&amp;nbsp; &amp;nbsp; name: ‘wyq’,&lt;br&gt;&amp;nbsp; &amp;nbsp; num1: 20,&lt;br&gt;&amp;nbsp; &amp;nbsp; num2: 30,&lt;br&gt;&amp;nbsp; &amp;nbsp; result: 50,&lt;br&gt;&amp;nbsp; &amp;nbsp; foo: oxa00&lt;br&gt;}&lt;/font&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=interface;archiType=square;fontColor=#33FF33;align=left;strokeWidth=2;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="510" y="-40" width="150" height="250" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="&lt;font color=&quot;#33ff33&quot;&gt;运行代码&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+                <mxCell id="36" value="&lt;font color=&quot;#33ff33&quot;&gt;运行代码&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="445" y="60" width="60" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#33FF33;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="1">
-                    <mxGeometry x="-50" y="230" width="180" height="190" as="geometry"/>
+                <mxCell id="38" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#33FF33;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="-50" y="230" width="180" height="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" value="" style="endArrow=none;html=1;fontColor=#33FF33;strokeColor=#00CC00;" edge="1" parent="1" source="22">
+                <mxCell id="39" value="" style="endArrow=none;html=1;fontColor=#33FF33;strokeColor=#00CC00;rounded=0;" parent="1" source="22" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="370" y="209.99999999999977" as="sourcePoint"/>
                         <mxPoint x="370" y="360" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="40" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#33FF33;strokeColor=#3399FF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="30" target="41">
+                <mxCell id="40" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#33FF33;strokeColor=#3399FF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;rounded=0;" parent="1" source="30" target="41" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="200" y="360" as="sourcePoint"/>
                         <mxPoint x="450" y="420" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="41" value="函数会单独在一个地方去创建，&lt;br&gt;上面全局foo其实是保存的函数的地址引用" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3399FF;strokeWidth=2;fontStyle=1;spacing=7;spacingBottom=3;" vertex="1" parent="1">
+                <mxCell id="41" value="函数会单独在一个地方去创建，&lt;br&gt;上面全局foo其实是保存的函数的地址引用" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3399FF;strokeWidth=2;fontStyle=1;spacing=7;spacingBottom=3;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="460" y="395" width="250" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="&lt;font color=&quot;#0000ff&quot;&gt;函数执行上下文(FEC)&lt;br&gt;Functional Execution Context&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3399FF;" vertex="1" parent="1">
+                <mxCell id="44" value="&lt;font color=&quot;#0000ff&quot;&gt;函数执行上下文(FEC)&lt;br&gt;Functional Execution Context&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3399FF;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-45" y="200" width="170" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="&lt;font color=&quot;#ff3333&quot;&gt;foo函数引用：0xa00&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#33FF33;" vertex="1" parent="1">
+                <mxCell id="45" value="&lt;font color=&quot;#ff3333&quot;&gt;foo函数引用：0xa00&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#33FF33;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="370" y="315" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;font color=&quot;#000000&quot;&gt;VO(variable Object): AO&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#0000FF;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-35" y="240" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;num = undefined&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;n = undefined&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;}" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="-380" y="300" width="170" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="&lt;span style=&quot;text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;AO(Active Object)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-350" y="280" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="endArrow=classic;html=1;fontColor=#000000;strokeColor=#3399FF;strokeWidth=2;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="46" target="47" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="60" y="270" as="sourcePoint"/>
+                        <mxPoint x="110" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="&lt;font color=&quot;#ff3333&quot;&gt;AO对象&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="-190" y="310" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;num = undefined&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;n =10&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;}" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="-380" y="505" width="170" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="endArrow=classic;html=1;fontColor=#FF3333;strokeColor=#3399FF;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="47" target="51" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="60" y="280" as="sourcePoint"/>
+                        <mxPoint x="110" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="运行代码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" parent="1" vertex="1">
+                    <mxGeometry x="-350" y="450" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;开始执行函数代码&lt;/span&gt;&lt;/div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;div&gt;cosnsole.log('foo')&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#0000FF;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-35" y="300" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;var name = &quot;wyq&quot;&lt;br&gt;var num1 = 20&lt;br&gt;var num2 = 30&lt;br&gt;var result = num1+num2&lt;br&gt;foo()&lt;br&gt;function foo(num){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;let n = 10&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;console.log('foo')&lt;br&gt;}&lt;/font&gt;&lt;/b&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=interface;archiType=square;fontColor=#33FF33;align=left;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="-65" width="150" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#000000;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;" parent="1" target="86" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1160" y="335" as="sourcePoint"/>
+                        <mxPoint x="1420" y="325" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate3.application;appType=event;archiType=rounded;fontColor=#000000;strokeColor=#000000;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1160" y="45" width="240" height="535" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="&lt;font color=&quot;#000000&quot;&gt;开始执行代码&lt;br&gt;var name = &quot;wyq&quot;&lt;br&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1190" y="505" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="&lt;font color=&quot;#000000&quot;&gt;VO(variable Object):GO&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1190" y="445" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="&lt;font color=&quot;#000000&quot;&gt;var globalObject = {&lt;br&gt;&amp;nbsp; &amp;nbsp; String: &quot;类&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; Date: &quot;类&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; setTimeout: &quot;函数&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; window: globalObject,&lt;br&gt;&amp;nbsp; &amp;nbsp; name: undefined,&lt;br&gt;&amp;nbsp; &amp;nbsp; num1: undefined,&lt;br&gt;&amp;nbsp; &amp;nbsp; num2: undefined,&lt;br&gt;&amp;nbsp; &amp;nbsp; result: undfined,&lt;br&gt;&amp;nbsp; &amp;nbsp; foo: oxa00&lt;br&gt;}&lt;/font&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=interface;archiType=square;fontColor=#33FF33;align=left;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1535" y="-65" width="150" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="" style="endArrow=classic;html=1;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF0000;rounded=0;" parent="1" source="90" target="91" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1300" y="375" as="sourcePoint"/>
+                        <mxPoint x="1350" y="325" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="93" value="&lt;font color=&quot;#ff0000&quot;&gt;GO 对象&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="332.5" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="&lt;font color=&quot;#ff3333&quot;&gt;GEC&amp;nbsp; (global exection context&lt;span&gt;)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1190" y="425" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="&lt;font color=&quot;#00ff00&quot;&gt;ECstack 调用栈&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1160" y="20" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="[[scope]]: parent scope&lt;br&gt;函数的执行体(代码块)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate3.application;appType=event;archiType=rounded;fontColor=#000000;strokeColor=#000000;align=left;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1545" y="352.5" width="130" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="&lt;font color=&quot;#000000&quot;&gt;存储函数foo&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#00FF00;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1570" y="352.5" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="" style="endArrow=classic;html=1;fontColor=#33FF33;strokeColor=#00CC00;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;rounded=0;" parent="1" target="96" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1610" y="332.5" as="sourcePoint"/>
+                        <mxPoint x="1725" y="455" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="99" value="" style="endArrow=classic;html=1;fontColor=#000000;strokeColor=#00CC00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;" parent="1" source="91" target="100" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1430" y="285" as="sourcePoint"/>
+                        <mxPoint x="1710" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="100" value="&lt;font color=&quot;#000000&quot;&gt;var globalObject = {&lt;br&gt;&amp;nbsp; &amp;nbsp; String: &quot;类&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; Date: &quot;类&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; setTimeout: &quot;函数&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; window: globalObject,&lt;br&gt;&amp;nbsp; &amp;nbsp; name: ‘wyq’,&lt;br&gt;&amp;nbsp; &amp;nbsp; num1: 20,&lt;br&gt;&amp;nbsp; &amp;nbsp; num2: 30,&lt;br&gt;&amp;nbsp; &amp;nbsp; result: 50,&lt;br&gt;&amp;nbsp; &amp;nbsp; foo: oxa00&lt;br&gt;}&lt;/font&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=interface;archiType=square;fontColor=#33FF33;align=left;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1750" y="-65" width="150" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="&lt;font color=&quot;#33ff33&quot;&gt;运行代码&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1685" y="35" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#33FF33;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1190" y="205" width="180" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="" style="endArrow=none;html=1;fontColor=#33FF33;strokeColor=#00CC00;rounded=0;" parent="1" source="91" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1610" y="184.99999999999977" as="sourcePoint"/>
+                        <mxPoint x="1610" y="335" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="104" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#33FF33;strokeColor=#3399FF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;rounded=0;" parent="1" source="96" target="105" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1440" y="335" as="sourcePoint"/>
+                        <mxPoint x="1690" y="395" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="105" value="函数会单独在一个地方去创建，&lt;br&gt;上面全局foo其实是保存的函数的地址引用" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3399FF;strokeWidth=2;fontStyle=1;spacing=7;spacingBottom=3;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1700" y="370" width="250" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="&lt;font color=&quot;#0000ff&quot;&gt;函数执行上下文(FEC)&lt;br&gt;Functional Execution Context&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3399FF;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1195" y="175" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="&lt;font color=&quot;#ff3333&quot;&gt;foo函数引用：0xa00&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#33FF33;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1610" y="290" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="&lt;font color=&quot;#ff3333&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;销毁，函数栈弹出&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#0000FF;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1205" y="215" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;开始执行函数代码&lt;/span&gt;&lt;/div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;div&gt;cosnsole.log('foo')&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#0000FF;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1205" y="275" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="" style="endArrow=none;html=1;fontColor=#FF3333;strokeColor=#FF3333;strokeWidth=2;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="88" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1320" y="230" as="sourcePoint"/>
+                        <mxPoint x="1190" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="118" value="" style="endArrow=none;html=1;fontColor=#FF3333;strokeColor=#FF3333;strokeWidth=2;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="102" target="88" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1410" y="188.75" as="sourcePoint"/>
+                        <mxPoint x="1160" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="119" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="30">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="110" y="330" as="sourcePoint"/>
+                        <mxPoint x="370" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="120" value="&lt;font color=&quot;#ff3333&quot;&gt;这步属于函数执行的编译阶段，&lt;br&gt;所以scope是编译阶段就产生的&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="505" width="180" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
