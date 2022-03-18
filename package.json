@@ -1,0 +1,9 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:never-w/javascript-high-tutorial.git",
+  "author": "yinqiao <1737666820@qq.com>",
+  "license": "MIT",
+  "type": "module"
+}
