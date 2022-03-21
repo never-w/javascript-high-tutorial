@@ -1,9 +1,14 @@
 {
   "name": "js",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "promise.js",
+  "scripts": {
+    "test": "promises-aplus-tests ./手写Promise/promise.js"
+  },
   "repository": "git@github.com:never-w/javascript-high-tutorial.git",
-  "author": "yinqiao <1737666820@qq.com>",
-  "license": "MIT",
-  "type": "module"
+  "author": "yinqiao",
+  "license": "ISC",
+  "devDependencies": {
+    "promises-aplus-tests": "^2.1.2"
+  }
 }

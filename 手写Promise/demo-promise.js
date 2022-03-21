@@ -10,7 +10,6 @@ class MyPromise {
   status = PENDING
   value = null
   reason = null
-
   onFulfilledCallbacks = []
   onRejectedCallbacks = []
 
@@ -32,6 +31,7 @@ class MyPromise {
       }
     }
   }
+
   then(onFulfilled, onRejected) {
     const promise2 = new MyPromise((resolve, reject) => {
       if (this.status === FULFILLED) {
@@ -46,16 +46,12 @@ class MyPromise {
         this.onRejectedCallbacks.push(onRejected)
       }
     })
-
-    return promise2
   }
 }
 
 function resolvePromise(promise2, x, resolve, reject) {
   if (promise2 === x) {
-    return reject(
-      new TypeError("Chaining cycle detected for promise #<Promise>")
-    )
+    return reject(new TypeError("Chaining cycle detected for promise #<Promise>"))
   }
   if (x instanceof MyPromise) {
     x.then(resolve, reject)
@@ -63,5 +59,3 @@ function resolvePromise(promise2, x, resolve, reject) {
     resolve(x)
   }
 }
-
-export default MyPromise
