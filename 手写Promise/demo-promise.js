@@ -33,12 +33,15 @@ class MyPromise {
   }
 
   then(onFulfilled, onRejected) {
+    // ==== 新增 ====
+    // 为了链式调用这里直接创建一个 MyPromise，并在后面 return 出去
     const promise2 = new MyPromise((resolve, reject) => {
+      // 这里的内容在执行器中，会立即执行
       if (this.status === FULFILLED) {
-        queueMicrotask(() => {
-          const x = onFulfilled(this.value)
-          resolvePromise(promise2, x, resolve, reject)
-        })
+        // 获取成功回调函数的执行结果
+        const x = onFulfilled(this.value)
+        // 传入 resolvePromise 集中处理
+        resolvePromise(x, resolve, reject)
       } else if (this.status === REJECTED) {
         onRejected(this.reason)
       } else if (this.status === PENDING) {
@@ -46,6 +49,8 @@ class MyPromise {
         this.onRejectedCallbacks.push(onRejected)
       }
     })
+
+    return promise2
   }
 }
 

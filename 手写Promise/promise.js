@@ -114,7 +114,16 @@ class MyPromise {
 }
 
 // MyPromise.js
-
+// function resolvePromise(promise2, x, resolve, reject) {
+//   if (promise2 === x) {
+//     return reject(new TypeError("Chaining cycle detected for promise #<Promise>"))
+//   }
+//   if (x instanceof MyPromise) {
+//     x.then(resolve, reject)
+//   } else {
+//     resolve(x)
+//   }
+// } 这个是简易版不遵循Promise A+规范的版本，下面是遵循规范的为了通过 测试用例
 function resolvePromise(promise, x, resolve, reject) {
   // 如果相等了，说明return的是自己，抛出类型错误并返回
   if (promise === x) {
