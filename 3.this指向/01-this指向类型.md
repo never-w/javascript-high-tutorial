@@ -80,3 +80,38 @@ function Person(name, age) {
 const p1 = new Person("wyq", 24) // 这样通过构造函数创造出来的方式，this指向 p1 这个 new出来的对象
 const p2 = new Person("gyf", 24) // this指向 p2 对象
 ```
+
+#### this 绑定的优先级
+
+```js
+const obj = {
+  name: "wyq",
+  foo: function () {
+    console.log(this)
+  },
+}
+
+obj.foo.call("gyf") // 打印 “gyf” ，所以显示绑定优先级大于隐士绑定
+
+const f = new obj.foo() // 打印foo函数，所以显示绑定优先级大于隐士绑定
+
+function foo() {
+  console.log(this)
+}
+const bar = foo.bind("wyq")
+const obj = new bar() // 打印foo函数，所以new优先级大于显示绑定
+```
+
+#### 箭头函数的 this
+
+```js
+var name = "gyf"
+var obj = {
+  name: "wyq",
+  foo: () => {
+    console.log(this.name)
+  },
+}
+
+obj.foo() // 打印 gyf，所以箭头函数this绑定指向上一层的this
+```
