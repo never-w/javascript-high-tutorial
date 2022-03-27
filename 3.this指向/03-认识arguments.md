@@ -10,3 +10,15 @@ foo(1, 2, 3, 4)
 ```
 
 arguments 他是一个类数组，所以什么 forEach 和 map 都不能在它身上调用
+
+### arguments 转化成数组类型
+
+```js
+function foo() {
+  const arr1 = Array.prototype.slice.call(arguments)
+  const arr2 = [].slice.call(arguments) // 与arr1 等价
+  const arr3 = Array.form(arguments)
+  const arr4 = [...arguments]
+}
+foo(1, 2, 3, 4)
+```
