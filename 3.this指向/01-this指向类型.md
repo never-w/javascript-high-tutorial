@@ -93,8 +93,6 @@ const obj = {
 
 obj.foo.call("gyf") // 打印 “gyf” ，所以显示绑定优先级大于隐士绑定
 
-const f = new obj.foo() // 打印foo函数，所以显示绑定优先级大于隐士绑定
-
 function foo() {
   console.log(this)
 }
