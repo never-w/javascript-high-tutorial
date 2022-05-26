@@ -2,6 +2,7 @@
   "name": "js",
   "version": "1.0.0",
   "main": "promise.js",
+  "type": "module",
   "scripts": {
     "test": "promises-aplus-tests ./手写Promise/promise.js"
   },
